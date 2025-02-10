@@ -5,5 +5,4 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: "great users"
-              run: evho "Hello devops"
-              
+              run: echo "Hello devops"
