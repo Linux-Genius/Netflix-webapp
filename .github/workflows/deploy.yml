@@ -1,0 +1,9 @@
+name: testing
+on: push
+jobs:
+    greet:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: "great users"
+              run: evho "Hello devops"
+              
